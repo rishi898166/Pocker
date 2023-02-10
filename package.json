@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "description": "",
   "author": {
-    "name": "Blanc Technologies",
-    "email": "contact@theblanc.in",
-    "url": "https://theblanc.in/"
+    "name": "Full ON Developers",
+    "email": "dev@github.com",
+    "url": "https://rishi898166.github.io/Pocker"
   },
-  "homepage": "https://theblanc.in/",
+  "homepage": "https://rishi898166.github.io/Pocker",
   "license": "MIT",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,11 @@
     "build": "cd client && npm run build",
     "install-client": "cd client && npm install",
     "heroku-postbuild": "npm run install-client && npm run build",
-    "start": "node ./server"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d server",
+    "start": "cd client && react-scripts start",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "engines": {
     "node": "16.13.0"
@@ -23,6 +27,7 @@
   "dependencies": {
     "@material-ui/core": "^4.12.3",
     "express": "^4.17.1",
+    "gh-pages": "^5.0.0",
     "poker-evaluator": "^0.3.1",
     "socketio": "^1.0.0",
     "winston": "^3.8.2"
