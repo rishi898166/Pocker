@@ -1,0 +1,119 @@
+.main {
+  overflow: hidden;
+  height: 100vh;
+  background-image: url(../../assets/background.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.signupWrapper {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px 150px;
+  position: absolute;
+  left: 26.5vw;
+  top: 10vh;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signupWrapper h1 {
+  color: rgba(241.19, 237.17, 237.17, 1);
+}
+
+.inputField {
+  width: 614px;
+  height: 40px;
+  background-color: rgba(241.19, 237.17, 237.17, 1);
+  border-radius: 30px;
+  font-size: 36px;
+  line-height: 100%;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.loginBtn {
+  width: 264px;
+  height: 50px;
+  background-color: rgba(225, 47, 72, 1);
+  border-radius: 30px;
+  color: white;
+  font-weight: normal;
+  font-size: 25px;
+  box-shadow: none;
+}
+
+.signupWrapper h4 {
+  color: rgba(241.19, 237.17, 237.17, 1);
+}
+
+.signUpChange {
+  color: rgba(241.19, 237.17, 237.17, 1);
+  font-size: 18px;
+  font-weight: normal;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .main {
+    background-image: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #004d35;
+  }
+
+  .signupWrapper {
+    background-color: rgba(0, 0, 0, 0);
+    position: static;
+    width: 70%;
+  }
+
+  .inputField {
+    width: 100%;
+  }
+
+  .loginBtn {
+    width: 150px;
+    height: 60px;
+    background-color: rgba(225, 47, 72, 1);
+    border-radius: 30px;
+    color: white;
+    font-weight: normal;
+    font-size: 100%;
+    box-shadow: none;
+  }
+}
+
+@media only screen and (max-width: 1700px) {
+  .signupWrapper {
+    left: 23vw;
+  }
+
+}
+
+@media only screen and (max-width: 1500px) {
+  .signupWrapper {
+    left: 20vw;
+  }
+
+}
+
+@media only screen and (max-width: 1300px) {
+  .signupWrapper {
+    left: 17vw;
+  }
+
+  .inputField {
+    width: 100%;
+  }
+
+}
+
+@media only screen and (max-width: 1100px) {
+  .signupWrapper {
+    left: 14vw;
+  }
+}

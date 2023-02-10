@@ -1,0 +1,38 @@
+.main {
+  background-image: url(../../assets/backdrop.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+.card {
+  position: absolute;
+  width: 669px;
+  height: 297px;
+  left: calc(50% - 669px / 2 + 22.5px);
+  top: calc(50% - 297px / 2 - 20.5px);
+
+  background: #f2f2f2;
+  border-radius: 30px;
+}
+.card p {
+  position: absolute;
+  width: 270px;
+  height: 27px;
+  left: 40px;
+  top: 84px;
+}
+
+.joinNowBtn {
+  position: absolute;
+  width: 160px;
+  height: 58px;
+  left: calc(50% - 160px / 2 + 195.5px);
+  top: calc(50% - 58px / 2 + 15px);
+
+  background: #bf3739;
+  border-radius: 30px;
+  color: white;
+  font-size: 150%;
+}

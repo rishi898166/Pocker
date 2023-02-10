@@ -1,0 +1,179 @@
+.main {
+  background-image: url(../../assets/backdrop.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+.body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+
+}
+
+.card {
+  padding: 30px 160px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.7);
+  background: rgb(34, 40, 49, 0.9);
+  border-radius: 30px;
+  margin-bottom: 50px;
+}
+
+.image {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: solid 3px #58CDD1;
+  border-radius: 10px;
+  padding: 5px 10px;
+  text-align: center;
+  color: #58CDD1;
+  font-size: 20px;
+  font-family: monospace;
+  margin-bottom: 50px;
+}
+
+.image:hover {
+  background: #58CDD1;
+  color: #232831;
+  cursor: pointer;
+}
+
+
+.createBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: solid 3px rgba(191, 55, 57, 1);
+  border-radius: 10px;
+  padding: 5px 10px;
+  text-align: center;
+  color: rgba(191, 55, 57, 1);
+  background-color: transparent;
+  font-size: 20px;
+  margin: auto;
+  font-family: monospace;
+}
+
+.createBtn:hover {
+  background: rgba(191, 55, 57, 1);
+  color: #232831;
+  cursor: pointer;
+}
+
+.pStyle {
+  border: solid 3px #E81E76;
+  margin: 20px 0px;
+  width: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+
+}
+
+.spanStyle {
+  width: 30%;
+  font-size: 30px;
+  background-color: #7E214D;
+  padding: 12px;
+  height: max-content;
+  color: white;
+  text-transform: uppercase;
+  font-family: monospace;
+}
+
+.bStyle {
+  width: 70%;
+  font-size: 40px;
+  background-color: #E91C72;
+  padding: 3.6px;
+  height: max-content;
+  color: white;
+  font-weight: 300;
+}
+
+.profileImage {
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  border: 5px solid #272133;
+  margin-top: 20px;
+  box-shadow: 0 10px 50px rgba(235, 25, 110, 1);
+}
+
+@media screen and (max-width: 893px) {
+  .profileImage {
+    height: 120px;
+    width: 120px;
+  }
+
+  .card {
+    padding: 30px 90px;
+  }
+}
+
+
+@media screen and (max-width: 743px) {
+  .profileImage {
+    height: 100px;
+    width: 100px;
+  }
+
+  .card {
+    margin-top: 10%;
+    padding: 20px 50px;
+  }
+
+  .pStyle {
+    width: 300px;
+  }
+
+  .bStyle {
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  .spanStyle {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .profileImage {
+    height: 80px;
+    width: 80px;
+  }
+
+  .image {
+    font-size: 16px;
+  }
+
+  .card {
+    margin-top: 14%;
+    padding: 20px 20px;
+  }
+
+  .pStyle {
+    width: 200px;
+    margin: 10px auto;
+  }
+
+  .bStyle {
+    font-size: 15px;
+    padding: 11px;
+  }
+
+  .spanStyle {
+    font-size: 15px;
+  }
+}

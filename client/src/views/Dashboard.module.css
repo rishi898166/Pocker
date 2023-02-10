@@ -1,0 +1,39 @@
+.main {
+  background-image: url(../assets/backdrop.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+.createClubBtn {
+  width: 227px;
+  height: 82px;
+  background: #bf3739;
+  border-radius: 30px;
+  color: white;
+  font-size: 150%;
+}
+.joinClubBtn {
+  width: 191px;
+  height: 82px;
+  background: #bf3739;
+  border-radius: 30px;
+  color: white;
+  font-size: 150%;
+}
+.body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.body2 {
+  display: flex;
+  flex: 90;
+  flex-direction: row;
+  height: 100%;
+}
+.section {
+  width: 50%;
+}

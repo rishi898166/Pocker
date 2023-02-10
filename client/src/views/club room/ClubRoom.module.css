@@ -1,0 +1,205 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.header {
+  height: 75px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.wrapper {
+  display: flex;
+  margin-top: 20px;
+}
+
+.icon {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: white;
+}
+
+.userListing {
+  width: 150px;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  padding: 0.7rem 2rem;
+  border-radius: 25px;
+}
+
+.userListing img {
+  border-radius: 102px;
+}
+
+.userListing p {
+  color: black;
+  padding-left: 1rem;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+}
+
+.GiveFund {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+.GiveFund input {
+  width: 40%;
+  height: 30px;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: none;
+}
+
+.giveFundBtn {
+  width: 40%;
+  height: 30px;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: none;
+  background-color: #33e244;
+  margin-left: 0.5rem;
+}
+
+.kickBtn {
+  width: 40%;
+  height: 30px;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: none;
+  background-color: rgba(191, 55, 57, 1);
+  color: white;
+}
+
+.card {
+  padding-bottom: 34px;
+  background-color: white;
+  border-radius: 30px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  overflow: hidden;
+  background-color: white;
+  margin: 50px;
+}
+
+.card img {
+  width: 484px;
+  height: 254px;
+  position: relative;
+  top: 0;
+  object-fit: cover;
+}
+
+.card p {
+  font-size: 14px;
+  line-height: 100%;
+  text-align: center;
+  color: black;
+}
+
+.Btn {
+  width: 150px;
+  height: 30px;
+  padding-top: 2px;
+  padding-bottom: 4px;
+  background-color: rgba(191, 55, 57, 1);
+  border-radius: 30px;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  line-height: 100%;
+  text-align: center;
+  color: white;
+}
+
+.joinNowBtn {
+  width: 200px;
+  height: 60px;
+  padding-top: 2px;
+  padding-bottom: 4px;
+  background-color: rgba(191, 55, 57, 1);
+  border-radius: 30px;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  line-height: 100%;
+  text-align: center;
+  color: white;
+}
+
+.delBtn {
+  width: 60px;
+  height: 60px;
+  padding-top: 2px;
+  padding-bottom: 4px;
+  background-color: rgba(191, 55, 57, 1);
+  border-radius: 30px;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  line-height: 100%;
+  text-align: center;
+  color: white;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.headingWrapper {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 562px) {
+
+  .card img {
+    width: 300px;
+    height: auto;
+  }
+
+  .card {
+    margin: 30px 20px;
+    padding-bottom: 25px;
+  }
+
+  .joinNowBtn {
+    font-size: 18px;
+    width: 100px;
+    height: 50px;
+  }
+}

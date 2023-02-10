@@ -1,0 +1,51 @@
+.main {
+  background-image: url(../../assets/backdrop.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper {
+  margin-top: 20vh;
+}
+.listing {
+  width: 571px;
+  height: 100px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.lisitng p {
+  width: 209px;
+  height: 35px;
+  font-size: 13px;
+  line-height: 100%;
+  text-align: center;
+  color: black;
+}
+.content {
+  width: 80%;
+  height: 100%;
+  display: flex;
+}
+.gameInfo {
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+  justify-content: center;
+  align-items: flex-start;
+}
+.gameStatus {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
