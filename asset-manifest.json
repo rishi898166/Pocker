@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.89e8692e.css",
+    "main.js": "/static/js/main.7dbfc079.js",
+    "static/media/background.png": "/static/media/background.8e987cc0458a5eafbb98.png",
+    "static/media/backdrop.png": "/static/media/backdrop.61df1841ba55232a240d.png",
+    "static/media/Texas Table.png": "/static/media/Texas Table.545bd2ad3d12362ececb.png",
+    "static/media/OFC Table.png": "/static/media/OFC Table.8caa8bd40bdf3ef6ce1c.png",
+    "static/media/PLO Table.png": "/static/media/PLO Table.37db59bd2ff3e9ddc4e5.png",
+    "static/media/axios.cjs": "/static/media/axios.27affc3aa4ca1497633e.cjs",
+    "index.html": "/index.html",
+    "main.89e8692e.css.map": "/static/css/main.89e8692e.css.map",
+    "main.7dbfc079.js.map": "/static/js/main.7dbfc079.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.89e8692e.css",
+    "static/js/main.7dbfc079.js"
+  ]
+}
