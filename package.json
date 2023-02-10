@@ -15,8 +15,8 @@
     "build": "cd client && npm run build",
     "install-client": "cd client && npm install",
     "heroku-postbuild": "npm run install-client && npm run build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d client/build",
+    "predeploy": "cd client && npm run build",
+    "deploy": "cd client && gh-pages -d build",
     "start": "cd client && react-scripts start",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
